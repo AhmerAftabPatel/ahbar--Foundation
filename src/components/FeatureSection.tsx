@@ -10,7 +10,7 @@ interface FeatureSectionProps {
 	headerTextHighlight: string
 	reverse?: boolean
 	videoSrc: string
-	imageSrc : string
+	imageSrc? : string
 }
 
 export default function FeatureSection({
