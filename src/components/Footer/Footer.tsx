@@ -33,7 +33,7 @@ export default function Footer() {
 			<nav className="flex flex-wrap items-center justify-center max-w-lg pt-8 pb-4 mx-auto space-x-2">
 				{footerPages.map((page) => (
 					// <Link href={page.href} key={page.name} passHref>
-						<a className="p-2 outline-none hover:text-secondary-dark focus:ring-4 focus:ring-secondary-light rounded-xl">
+						<a key={page.name} className="p-2 outline-none hover:text-secondary-dark focus:ring-4 focus:ring-secondary-light rounded-xl">
 							{page.name}
 						</a>
 					// </Link>
